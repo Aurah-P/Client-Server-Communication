@@ -1,7 +1,9 @@
 **INTRODUCTION**
+
 In recent years, the development of embedded systems has surged, particularly with the advent of versatile and affordable microcontrollers like the Raspberry Pi Pico W. This project explores the implementation of a server-host communication system using two Raspberry Pi Pico W microcontrollers. The primary objective was to establish a reliable and efficient communication protocol between a server and a host terminal, enabling the exchange of messages. This system has potential applications in various domains, including home automation, remote monitoring, and IoT solutions.
 
 **COMPONENTS**
+
 The core components utilized in this project include two Raspberry Pi Pico W microcontrollers, each equipped with Wi-Fi capabilities for wireless communication. Additional components involved in the setup include a breadboard, connecting wires, button to represent a keyboard, power supply unit, and a computer for initial programming and monitoring. The software aspect was developed using MicroPython, a lightweight programming language suitable for microcontroller environments. Essential libraries such as network, socket, and uasyncio were employed to facilitate network communication and asynchronous operations.
 
 **CIRCUIT DIAGRAM**

@@ -17,7 +17,7 @@ The core components utilized in this project include two Raspberry Pi Pico W mic
 | 20      |  RST   |
 
 | RSP Pico | BUTTON |
-| ```````` | ``````` |
+| -------- | ------- |
 | 13       | 1-Right |
 | VCC      | 2-Left  |
 

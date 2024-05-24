@@ -8,17 +8,17 @@ The core components utilized in this project include two Raspberry Pi Pico W mic
 
 **CIRCUIT DIAGRAM**
 
-RSP Pico  |  OLED
+| RSP Pico  |  OLED
+| ``````` | ```````|
+| 16      |  CS    |
 
-16        |  CS
+| 17      |  DC    |
 
-17        |  DC
+| 18      |  SCK   |
 
-18        |  SCK
+| 19      |  MOSI  |
 
-19        |  MOSI
-
-20        |  RST
+| 20      |  RST   |
 
 RSP Pico  | BUTTON
 

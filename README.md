@@ -16,11 +16,11 @@ The core components utilized in this project include two Raspberry Pi Pico W mic
 | 19      |  MOSI  |
 | 20      |  RST   |
 
-RSP Pico  | BUTTON
+| RSP Pico | BUTTON |
+| ```````` | ``````` |
+| 13       | 1-Right |
+| VCC      | 2-Left  |
 
-13        | 1-Right
-
-VCC       | 2-Left
 ![Capture](https://github.com/Aurah-P/Client-Server-Communication/assets/167772589/d1747a65-bc88-4d95-b286-9027578398ad)
 
 **DISCUSSION**

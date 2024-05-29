@@ -22,12 +22,12 @@ while wifi.isconnected()== False:
     oled.show()
     utime.sleep(1)
 wifiInfo=wifi.ifconfig()
-ServerIP=wifiInfo[0]
+ServerIP=wifiInfo[0] #Paste this IP address to the Client's Code
 ServerPort = 2222
 bufferSize = 1024
 UDPServer = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 UDPServer.bind((ServerIP,ServerPort))
-clientAddress = ("192.168.0.26", 2222)
+clientAddress = ("192.168.0.26", 2222) #This was gotten from the ClientHost
 oled.fill(0)
 oled.show()
 oled.text("Connected",0,0)

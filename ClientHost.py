@@ -12,7 +12,7 @@ wifi.connect("GEARBOX MEMBERS", "Members@Gearbox")
 spi =SPI(0, 100000, mosi=Pin(19), sck=Pin(18))
 oled = SSD1306_SPI(128, 64, spi, Pin(17),Pin(20), Pin(16))
 
-serverAddress = ("192.168.0.49", 2222)
+serverAddress = ("192.168.0.49", 2222) #This was gotten from the ServerIP
 oled.fill(0)
 oled.show()
 oled.text("Initialising Client..",0,0)
@@ -27,7 +27,7 @@ while wifi.isconnected()== False:
     print("No connection")
     utime.sleep(1)
 wifiInfo=wifi.ifconfig()
-ClientIP=wifiInfo[0]
+ClientIP=wifiInfo[0] #Paste this IP address to the code of the Server
 ClientPort = 2222
 bufferSize = 1024
 UDPClient=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
